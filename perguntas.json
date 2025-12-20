@@ -1,0 +1,50 @@
+{
+    "esporte": [
+        {
+            "comum": "Qual esporte você tem mais chances de ser profissional?",
+            "impostor": "Qual esporte você nunca praticaria?"
+        },
+        {
+            "comum": "Qual esporte é o mais chato de assistir?",
+            "impostor": "Qual esporte exige mais condicionamento físico?"
+        },
+        {
+            "comum": "Qual esporte você praticaria por hobby?",
+            "impostor": "Qual esporte você acha mais perigoso?"
+        }
+    ],
+    "comida": [
+        {
+            "comum": "O que você comeria agora?",
+            "impostor": "O que você jamais comeria?"
+        },
+        {
+            "comum": "Qual sua sobremesa favorita?",
+            "impostor": "Qual sobremesa você acha enjoativa?"
+        },
+        {
+            "comum": "Qual prato você sabe cozinhar melhor?",
+            "impostor": "Qual prato você sempre queima quando tenta fazer?"
+        }
+    ],
+    "lugares": [
+        {
+            "comum": "Onde você gostaria de passar as próximas férias?",
+            "impostor": "Onde você detestaria morar?"
+        },
+        {
+            "comum": "Qual lugar te traz paz?",
+            "impostor": "Qual lugar te dá medo?"
+        }
+    ],
+    "cotidiano": [
+        {
+            "comum": "O que você faz logo ao acordar?",
+            "impostor": "O que você faz antes de dormir?"
+        },
+        {
+            "comum": "Qual tarefa doméstica você menos odeia?",
+            "impostor": "Qual tarefa doméstica você pagaria para não fazer?"
+        }
+    ]
+}
