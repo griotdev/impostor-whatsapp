@@ -35,10 +35,6 @@ module.exports = {
         await client.sendMessage(chatId, "Quem acertou?");
 
         // Reset
-        state.status = 'FECHADO';
-        state.idGrupoPermitido = null;
-        state.modo = null;
-        state.jogoAtual = { categoria: null, palavraSecreta: null, perguntaComum: null, perguntaImpostor: null, impostor: null };
-        state.participantes = [];
+        state.reset();
     }
 };

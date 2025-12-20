@@ -7,6 +7,8 @@ const cmdIniciar = require('./src/commands/iniciar');
 const cmdParticipar = require('./src/commands/participar');
 const cmdJogar = require('./src/commands/jogar');
 const cmdRevelar = require('./src/commands/revelar');
+const cmdParar = require('./src/commands/parar');
+const cmdVoltar = require('./src/commands/voltar');
 
 const client = new Client({
     authStrategy: new LocalAuth()
@@ -26,11 +28,19 @@ client.on('message_create', async (message) => {
     const bodyRef = message.body.trim();
     const bodyLower = bodyRef.toLowerCase();
 
+    // Comandos Prioritários (Cancelamento/Navegação)
+    if (bodyLower === '!parar') {
+        await cmdParar.execute(message, client);
+        return;
+    }
+    if (bodyLower === '!voltar') {
+        await cmdVoltar.execute(message, client);
+        return;
+    }
+
     // 1. SELECT MODE (Middleware logic)
+    // Só processa números se estiver nesse status e NÃO for um comando (embora comandos já tenham sido tratados acima)
     if (state.status === 'SELECIONANDO_MODO') {
-        // Verifica se é o chat certo
-        if (message.getChatId && message.getChatId() !== state.idGrupoPermitido) return; // Método getChatId não existe no msg, usei utils na v1
-        // Melhor usar a logica do utils ou verificar raw properties
         const msgChatId = message.fromMe ? message.to : message.from;
         if (msgChatId === state.idGrupoPermitido) {
             if (bodyRef === '1' || bodyRef === '2') {

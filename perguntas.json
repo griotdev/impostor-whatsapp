@@ -1,5 +1,5 @@
 {
-    "esporte": [
+    "geral": [
         {
             "comum": "Qual esporte você tem mais chances de ser profissional?",
             "impostor": "Qual esporte você nunca praticaria?"
@@ -11,9 +11,7 @@
         {
             "comum": "Qual esporte você praticaria por hobby?",
             "impostor": "Qual esporte você acha mais perigoso?"
-        }
-    ],
-    "comida": [
+        },
         {
             "comum": "O que você comeria agora?",
             "impostor": "O que você jamais comeria?"
@@ -25,9 +23,7 @@
         {
             "comum": "Qual prato você sabe cozinhar melhor?",
             "impostor": "Qual prato você sempre queima quando tenta fazer?"
-        }
-    ],
-    "lugares": [
+        },
         {
             "comum": "Onde você gostaria de passar as próximas férias?",
             "impostor": "Onde você detestaria morar?"
@@ -35,9 +31,7 @@
         {
             "comum": "Qual lugar te traz paz?",
             "impostor": "Qual lugar te dá medo?"
-        }
-    ],
-    "cotidiano": [
+        },
         {
             "comum": "O que você faz logo ao acordar?",
             "impostor": "O que você faz antes de dormir?"
@@ -45,6 +39,154 @@
         {
             "comum": "Qual tarefa doméstica você menos odeia?",
             "impostor": "Qual tarefa doméstica você pagaria para não fazer?"
+        },
+        {
+            "comum": "Qual parte do corpo é mais difícil de depilar?",
+            "impostor": "Qual parte do corpo é mais difícil de coçar em público?"
+        },
+        {
+            "comum": "Qual é o seu feriado favorito?",
+            "impostor": "Qual é a data mais importante do ano?"
+        },
+        {
+            "comum": "Qual comida você escolheria para comer pro resto da vida?",
+            "impostor": "Qual última comida que você comeu que te deu dor de barriga?"
+        },
+        {
+            "comum": "Qual animal terrestre você ganharia no soco?",
+            "impostor": "Qual mamífero você teria em casa?"
+        },
+        {
+            "comum": "Qual idade mínima deve ter sua namorada(o)?",
+            "impostor": "Qual idade mínima alguém deve ter celular?"
+        },
+        {
+            "comum": "Qual atividade você mais gosta de fazer com seus amigos?",
+            "impostor": "Qual atividade você mais gosta de fazer com sua namorada(o)?"
+        },
+        {
+            "comum": "Quanto de dinheiro você gastaria numa casa?",
+            "impostor": "Quanto de dinheiro você gastaria num carro?"
+        },
+        {
+            "comum": "Qual personagem de filme você seria?",
+            "impostor": "Qual vilão de filme você secretamente admira?"
+        },
+        {
+            "comum": "Qual jogo você passaria o dia inteiro jogando?",
+            "impostor": "Qual jogo você acha que só gente estranha joga?"
+        },
+        {
+            "comum": "Qual é a pior rede social da atualidade?",
+            "impostor": "Qual rede social você usa para stalkear alguém?"
+        },
+        {
+            "comum": "Se você pudesse ser um animal por um dia, qual seria?",
+            "impostor": "Qual animal você acha que tem a carne mais saborosa?"
+        },
+        {
+            "comum": "Qual superpoder você usaria para ajudar a humanidade?",
+            "impostor": "Qual superpoder você usaria para fins puramente egoístas?"
+        },
+        {
+            "comum": "Qual som você acha mais relaxante?",
+            "impostor": "Qual barulho te faz querer gritar de raiva?"
+        },
+        {
+            "comum": "Qual é a sua maior habilidade na cozinha?",
+            "impostor": "Qual ingrediente você coloca em tudo, mesmo que não combine?"
+        },
+        {
+            "comum": "Qual desenho animado marcou sua infância?",
+            "impostor": "Qual desenho animado você acha que é influência ruim para crianças?"
+        },
+        {
+            "comum": "O que você faria se ganhasse na loteria hoje?",
+            "impostor": "Qual a primeira coisa fútil que você compraria se fosse rico?"
+        },
+        {
+            "comum": "Qual lugar do mundo tem a melhor comida?",
+            "impostor": "Em qual país você nunca pisaria por medo da higiene?"
+        },
+        {
+            "comum": "Qual peça de roupa você nunca tira do corpo?",
+            "impostor": "Qual roupa você acha ridícula, mas todo mundo usa?"
+        },
+        {
+            "comum": "Qual é a sua maior qualidade?",
+            "impostor": "Qual defeito seu você tenta esconder a todo custo?"
+        },
+        {
+            "comum": "Qual música você colocaria para tocar no seu casamento?",
+            "impostor": "Qual música você sente vergonha de saber a letra inteira?"
+        },
+        {
+            "comum": "Qual profissão você teria se dinheiro não fosse problema?",
+            "impostor": "Qual profissão você acha que vai sumir por causa da IA?"
+        },
+        {
+            "comum": "Qual série você recomendaria para qualquer pessoa?",
+            "impostor": "Qual série você abandonou porque achou insuportável?"
+        },
+        {
+            "comum": "Quem é a pessoa mais inteligente que você conhece?",
+            "impostor": "Quem é a pessoa mais sem noção da sua família?"
+        },
+        {
+            "comum": "Qual é o seu maior sonho de consumo?",
+            "impostor": "Qual foi a compra mais idiota que você fez por impulso?"
+        },
+        {
+            "comum": "Qual site você mais visita para se informar?",
+            "impostor": "Qual site você apaga do histórico logo depois de usar?"
+        },
+        {
+            "comum": "Qual seria o nome do seu canal no YouTube?",
+            "impostor": "Qual comentário de hater você já teve vontade de escrever?"
+        },
+        {
+            "comum": "Qual é o seu meme favorito de todos os tempos?",
+            "impostor": "Qual gíria atual você não aguenta mais ouvir?"
+        },
+        {
+            "comum": "Qual filme você assistiria 10 vezes sem enjoar?",
+            "impostor": "Qual filme famoso você finge que assistiu só para não ficar de fora?"
+        },
+        {
+            "comum": "Qual é o seu cheiro favorito no mundo?",
+            "impostor": "Qual cheiro corporal você acha mais insuportável?"
+        },
+        {
+            "comum": "Qual presente você daria para o seu pior inimigo?",
+            "impostor": "O que você pegou emprestado e nunca mais devolveu?"
+        },
+        {
+            "comum": "Em qual época do passado você gostaria de ter vivido?",
+            "impostor": "Qual tendência de moda atual você acha que vai ser motivo de piada no futuro?"
+        },
+        {
+            "comum": "Qual console de videogame é o melhor?",
+            "impostor": "Qual jogo você considera perda de tempo total?"
+        },
+        {
+            "comum": "Qual é a melhor maneira de terminar um namoro?",
+            "impostor": "Qual desculpa esfarrapada você já deu para não sair de casa?"
+        },
+        {
+            "comum": "Qual ator/atriz deveria interpretar você em um filme?",
+            "impostor": "Qual famoso você daria um soco se encontrasse na rua?"
+        },
+        {
+            "comum": "Qual a melhor coisa de ser adulto?",
+            "impostor": "Qual responsabilidade você finge que não tem?"
+        },
+        {
+            "comum": "Qual é a melhor cobertura de pizza?",
+            "impostor": "Qual sabor de pizza é um crime contra a humanidade?"
+        },
+        {
+            "comum": "Qual é a maior loucura que você faria por amor?",
+            "impostor": "Qual a maior mentira que você já contou para se livrar de uma briga?"
         }
     ]
 }

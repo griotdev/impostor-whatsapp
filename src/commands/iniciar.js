@@ -38,6 +38,23 @@ Qual modo de jogo vocês querem?
 
             const nomeModo = state.modo === 'CLASSICO' ? 'CLÁSSICO (Palavras)' : 'PERGUNTAS';
 
+            // Carregar categorias dinamicamente
+            let categorias = [];
+            try {
+                if (state.modo === 'CLASSICO') {
+                    const dados = require('../../palavras.json');
+                    categorias = Object.keys(dados);
+                } else {
+                    const dados = require('../../perguntas.json');
+                    categorias = Object.keys(dados);
+                }
+            } catch (e) {
+                console.error("Erro ao ler JSON de categorias:", e);
+                categorias = ["(Erro ao carregar categorias)"];
+            }
+
+            const listaCategorias = categorias.map(c => `• ${c}`).join('\n');
+
             await client.sendMessage(state.idGrupoPermitido, `✅ Modo *${nomeModo}* selecionado!
             
 Para participar, responda aqui com:
@@ -47,6 +64,9 @@ Para participar, responda aqui com:
 
 *Quando todos entrarem, o Admin deve digitar:*
 !jogar [categoria]
+
+*Categorias Disponíveis:*
+${listaCategorias}
 
 (bot feito pelo André)`);
         } else {
